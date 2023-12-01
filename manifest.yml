@@ -24,12 +24,18 @@ packages:
         function: handler.js
         web-export: false
         inputs:
-          hostname: $LOGDNA_HOSTNAME
-          ingestionKey: $LOGDNA_INGESTION_KEY
-          bucketArchive: $COS_BUCKET_ARCHIVE
-          apiKeyId: $COS_APIKEY
-          endpoint: $COS_ENDPOINT
-          serviceInstanceId: $COS_INSTANCEID
+          hostname: 7a6911b5-5ec2-4af8-8dc5-d90079f93e66@logdna.ibm.com
+          ingestionKey: 61bd6aedf79afcedba3b1f4a39ad1160
+          bucketArchive: cos-trigger
+          apiKeyId: PI2DH9AtkVTdLK2QShnIy3RzSYPZLTC0u243j6UMcr5n
+          endpoint: s3.us-south.cloud-object-storage.appdomain.cloud
+          serviceInstanceId: "crn:v1:bluemix:public:cloud-object-storage:global:a/4658c6144ef5e2c880e4725753518671:908417d9-b783-4163-b425-ef9e8f79c087::"
+          # hostname: $LOGDNA_HOSTNAME
+          # ingestionKey: $LOGDNA_INGESTION_KEY
+          # bucketArchive: $COS_BUCKET_ARCHIVE
+          # apiKeyId: $COS_APIKEY
+          # endpoint: $COS_ENDPOINT
+          # serviceInstanceId: $COS_INSTANCEID
 # See references:
 # https://serverless.com/framework/docs/providers/openwhisk/guide/serverless.yml
 # https://cloud.ibm.com/docs/openwhisk?topic=cloud-functions-deploy

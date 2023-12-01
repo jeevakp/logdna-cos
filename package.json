@@ -12,6 +12,7 @@
   "author": "Victor Shinya <vshinya@br.ibm.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "ibm-cos-sdk": "^1.10.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",

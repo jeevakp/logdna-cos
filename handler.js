@@ -172,6 +172,7 @@ async function downloadAndSend(params) {
 
 async function main(params) {
   console.time("LogDNA-COS");
+  console.log("params : ", params);
   if (!cos) {
     cos = new S3({
       endpoint: params.endpoint,
